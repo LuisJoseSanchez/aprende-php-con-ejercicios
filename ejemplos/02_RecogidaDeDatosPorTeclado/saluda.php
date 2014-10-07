@@ -5,6 +5,6 @@
   </head>
   <body>
     Hola <?php echo $_GET['nombre'] ?>,
-    que tengas un buen da.
+    que tengas un buen día.
   </body>
 </html>
