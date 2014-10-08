@@ -5,7 +5,7 @@
   </head>
   <body>
     Adivina el número que estoy pensando.
-     <form action="adivina.php" method="post">
+    <form action="adivina.php" method="post">
       <input type="hidden" name="numeroIntroducido" value="555">
       <input type="hidden" name="oportunidades" value="5">
       <input type="submit" value="Continuar">
