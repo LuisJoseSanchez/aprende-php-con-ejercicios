@@ -8,6 +8,7 @@
       $conexion = mysql_connect("localhost", "root", root);
       
       mysql_select_db("banco", $conexion);
+      mysql_set_charset('utf8');
       
       $consulta = mysql_query("SELECT * FROM empleado WHERE dni=\"13579\"", $conexion);
       
