@@ -20,14 +20,14 @@
 
       <div id="content">
         <?php
-            echo "Luis José Sánchez González";
+          echo "Luis José Sánchez González";
         ?>
 
         <br><br><hr><br>Código fuente:<br>
         <?php
           highlight_string('
           <?php
-          echo "Luis José Sánchez González";
+            echo "Luis José Sánchez González";
           ?>
           ');
         ?>
