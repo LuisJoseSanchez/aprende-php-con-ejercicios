@@ -20,7 +20,7 @@
 
       <div id="content">
         <?php
-            echo $_POST['euros'], " euros son ", round($_POST['euros']*166.386), " pesetas.";
+            echo $_POST['euros'], " euros son ", round($_POST['euros'] * 166.386), " pesetas.";
         ?>
       </div>
       
