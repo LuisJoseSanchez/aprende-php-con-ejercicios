@@ -21,7 +21,7 @@
       <div id="content">
         <?php
           $pesetas = 1000;
-          echo $pesetas, " pesetas son ", round($pesetas / 166.386, $precision=2), " euros.";
+          echo $pesetas, " pesetas son ", round($pesetas / 166.386, $precision = 2), " euros.";
         ?>
                 
         <br><br><hr><br>Código fuente:<br>
@@ -29,7 +29,7 @@
         highlight_string('
         <?php
           $pesetas = 1000;
-          echo $pesetas, " pesetas son ", round($pesetas / 166.386, $precision=2), " euros.";
+          echo $pesetas, " pesetas son ", round($pesetas / 166.386, $precision = 2), " euros.";
         ?>
         ');
         ?>
