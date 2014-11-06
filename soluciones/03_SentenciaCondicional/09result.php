@@ -2,24 +2,24 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="default.css" rel="stylesheet" type="text/css" />
+  <link href="default.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-	<div id="container">
-	    <div id="header">
-		    <h1>
-			    APRENDE PHP CON EJERCICIOS
-		    </h1>
+  <div id="container">
+      <div id="header">
+        <h1>
+          APRENDE PHP CON EJERCICIOS
+        </h1>
                     <h2>
                             SOLUCIONES A LOS EJERCICIOS
                     </h2>
-		    <h2>
+        <h2>
                         <br>3. Sentencia condicional
-		    </h2>
-	    </div>
+        </h2>
+      </div>
 
-	    <div id="content">
-		<?php
+      <div id="content">
+    <?php
                     $a = $_POST['a'];
                     $b = $_POST['b'];
                     $c = $_POST['c'];
@@ -53,7 +53,7 @@
 
                     // ax^2 + bx + c = 0  con a, b y c distintos de 0
 
-                    if (($a != 0) && ($b != 0) && ($c != 0)) {	
+                    if (($a != 0) && ($b != 0) && ($c != 0)) {  
 
                             $discriminante = $b*$b - (4 * $a * $c);
 
@@ -64,11 +64,11 @@
                                             echo  "<br>x2 = ", (-$b - sqrt($discriminante))/(4 * $a * $c);
                                     }
                             }
-		?>
-	    </div>
-	    <div id="footer">
-		    © Luis José Sánchez González
-	    </div>
-	</div>
+    ?>
+      </div>
+      <div id="footer">
+        © Luis José Sánchez González
+      </div>
+  </div>
     </body>
 </html>
