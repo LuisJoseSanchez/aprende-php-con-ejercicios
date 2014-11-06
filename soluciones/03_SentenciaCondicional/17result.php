@@ -2,37 +2,37 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="default.css" rel="stylesheet" type="text/css" />
+  <link href="default.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-	<div id="container">
-	    <div id="header">
-		    <h1>
-			    APRENDE PHP CON EJERCICIOS
-		    </h1>
+  <div id="container">
+      <div id="header">
+        <h1>
+          APRENDE PHP CON EJERCICIOS
+        </h1>
                     <h2>
                             SOLUCIONES A LOS EJERCICIOS
                     </h2>
-		    <h2>
+        <h2>
                         <br>3. Sentencia condicional
-		    </h2>
-	    </div>
+        </h2>
+      </div>
 
-	    <div id="content">
-		<?php
-		    $n = $_POST['n'];
-		    if ( $n < 10 ) $primera = n;
-		    if (( $n >= 10 ) && ( $n < 100 )) $primera = $n / 10;
-		    if (( $n >= 100 ) && ( $n < 1000 )) $primera = $n / 100;
-		    if (( $n >= 1000 ) && ( $n < 10000 )) $primera = $n / 1000;
-		    if ( $n >= 10000 ) $primera = $n / 10000;
+      <div id="content">
+    <?php
+        $n = $_POST['n'];
+        if ( $n < 10 ) $primera = n;
+        if (( $n >= 10 ) && ( $n < 100 )) $primera = $n / 10;
+        if (( $n >= 100 ) && ( $n < 1000 )) $primera = $n / 100;
+        if (( $n >= 1000 ) && ( $n < 10000 )) $primera = $n / 1000;
+        if ( $n >= 10000 ) $primera = $n / 10000;
 
-		    echo "La primera cifra del número introducido es ", floor($primera);
-		?>
-	    </div>
-	    <div id="footer">
-		    © Luis José Sánchez González
-	    </div>
-	</div>
+        echo "La primera cifra del número introducido es ", floor($primera);
+    ?>
+      </div>
+      <div id="footer">
+        © Luis José Sánchez González
+      </div>
+  </div>
     </body>
 </html>
