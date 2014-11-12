@@ -1,0 +1,78 @@
+body {
+	background: url(bgblanco.png) repeat;
+	text-align: justify;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #757E82;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 777px;
+	background:#fff;
+	border: solid 1px;
+}
+
+#header
+{
+	background: url(bgblue2.png) repeat;
+	/*color:#002;*/
+	text-align: center;
+	padding: 20px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+#header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#content
+{
+	background: url(bglightblue.png) repeat;
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+li
+{
+    padding: 18px;
+}
+
+a
+{
+    /*background-color: magenta;*/
+    /* color: #807; */
+    color: #429;
+    text-decoration: none;
+    /* border: solid 1px black; */
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding: 4px;
+}
+
+#footer
+{
+	color: white;
+	background: url(bgblue2.png) repeat;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+	height: 1%;
+}
