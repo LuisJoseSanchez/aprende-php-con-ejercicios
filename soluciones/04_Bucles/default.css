@@ -1,27 +1,27 @@
 body {
-	background: url(bgblanco.png) repeat;
-	text-align: justify;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 14px;
-	color: #757E82;
+  background: url(bgblanco.png) repeat;
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  color: #757E82;
 }
 
 #container
 {
-	margin: 0 auto;
-	width: 777px;
-	background:#fff;
-	border: solid 1px;
+  margin: 0 auto;
+  width: 777px;
+  background:#fff;
+  border: solid 1px;
 }
 
 #header
 {
-	background: url(bgblue2.png) repeat;
-	/*color:#002;*/
-	text-align: center;
-	padding: 20px;
-	color: white;
-	text-shadow: black 0.1em 0.1em 0.2em;
+  background: url(bgblue2.png) repeat;
+  /*color:#002;*/
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 #header h1 {
@@ -35,16 +35,16 @@ body {
 
 #content
 {
-	background: url(bglightblue.png) repeat;
-	clear: left;
-	padding: 20px;
+  background: url(bglightblue.png) repeat;
+  clear: left;
+  padding: 20px;
 }
 
 #content h2
 {
-	color:#000;
-	font-size: 160%;
-	margin: 0 0 .5em;
+  color:#000;
+  font-size: 160%;
+  margin: 0 0 .5em;
 }
 
 li
@@ -69,10 +69,10 @@ table, th, td {
 
 #footer
 {
-	color: white;
-	background: url(bgblue2.png) repeat;
-	text-align: center;
-	padding: 20px;
-	margin: 0px;
-	height: 1%;
+  color: white;
+  background: url(bgblue2.png) repeat;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  height: 1%;
 }
