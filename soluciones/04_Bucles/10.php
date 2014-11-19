@@ -44,7 +44,7 @@
             <a href="index.php">>> Volver</a>
           <?php
           }
-          ?>
+        ?>
 
       </div>
       <div id="footer">
