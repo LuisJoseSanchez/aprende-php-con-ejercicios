@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="default.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-	<div id="container">
-	    <div id="header">
-		    <h1>
-			    APRENDE PHP CON EJERCICIOS
-		    </h1>
-                    <h2>
-                            SOLUCIONES A LOS EJERCICIOS
-                    </h2>
-		    <h2>
-                        <br>6. Sesiones y Cookies
-		    </h2>
-	    </div>
+  <head>
+    <meta charset="UTF-8">
+    <link href="default.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>
+          APRENDE PHP CON EJERCICIOS
+        </h1>
+        <h2>
+          SOLUCIONES A LOS EJERCICIOS
+        </h2>
+        <h2>
+          <br>4. Bucles
+        </h2>
+      </div>
 
-	    <div id="content">
-		<ol>
-		    <li>
-				Escribe un programa que calcule la media de un conjunto de números positivos introducidos
-				por teclado. A priori, el programa no sabe cuántos números se introducirán. El usuario
-				indicará que ha terminado de introducir los datos cuando meta un número negativo. Utiliza
-				sesiones.
+      <div id="content">
+        <ol>
+          <li>
+            Escribe un programa que calcule la media de un conjunto de números positivos introducidos
+            por teclado. A priori, el programa no sabe cuántos números se introducirán. El usuario
+            indicará que ha terminado de introducir los datos cuando meta un número negativo. Utiliza
+            sesiones.
             <br /><a href="01.php">&gt;&gt; Solución</a>
-		    </li>
+          </li>
 
-		    <li>
-				Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo
-				y nos diga cuantos números se han introducido, la media de los impares y el mayor de los
-				pares . El número negativo sólo se utiliza para indicar el final de la introducción de
-				datos pero no se incluye en el cómputo. Utiliza sesiones.
-			<br /><a href="02.php">&gt;&gt; Solución</a>
-		    </li>
+          <li>
+            Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo
+            y nos diga cuantos números se han introducido, la media de los impares y el mayor de los
+            pares . El número negativo sólo se utiliza para indicar el final de la introducción de
+            datos pero no se incluye en el cómputo. Utiliza sesiones.
+            <br /><a href="02.php">&gt;&gt; Solución</a>
+          </li>
 
-		    <li>
-				Escribe un programa que permita ir introduciendo una serie indeterminada de números
-				mientras su suma no supere el valor 10000. Cuando esto último ocurra, se debe mostrar
-				el total acumulado, el contador de los números introducidos y la media. Utiliza sesiones.
-		     <br /><a href="03.php">&gt;&gt; Solución</a>
-		    </li>
+          <li>
+          Escribe un programa que permita ir introduciendo una serie indeterminada de números
+          mientras su suma no supere el valor 10000. Cuando esto último ocurra, se debe mostrar
+          el total acumulado, el contador de los números introducidos y la media. Utiliza sesiones.
+           <br /><a href="03.php">&gt;&gt; Solución</a>
+          </li>
 
 		    <li>
 				Establece un control de acceso mediante nombre de usuario y contraseña para cualquiera
