@@ -29,8 +29,10 @@
             }
           ?>
         </table>
+        <br><br>
+        <a href="index.php">>> Volver</a>
       </div>
-      
+        
       <div id="footer">
         © Luis José Sánchez González
       </div>
