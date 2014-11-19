@@ -43,50 +43,50 @@
            <br /><a href="03.php">&gt;&gt; Solución</a>
           </li>
 
-		    <li>
-				Establece un control de acceso mediante nombre de usuario y contraseña para cualquiera
-				de los programas de la relación anterior. La aplicación no nos dejará continuar hasta
-				que iniciemos sesión con un nombre de usuario y contraseña correctos.
-		    <br /><a href="04.php">&gt;&gt; Solución</a>
-		    </li>
+        <li>
+        Establece un control de acceso mediante nombre de usuario y contraseña para cualquiera
+        de los programas de la relación anterior. La aplicación no nos dejará continuar hasta
+        que iniciemos sesión con un nombre de usuario y contraseña correctos.
+        <br /><a href="04.php">&gt;&gt; Solución</a>
+        </li>
 
-		    <li>
-				Crea un carrito de la compra sencillo que permita añadir y quitar productos (tres o cuatro
-				productos diferentes). De cada producto se debe conocer al menos la descripción, el precio
-				y debe tener una imagen que lo identifique.
-		    <br /><a href="05.php">&gt;&gt; Solución</a>
-		    </li>
+        <li>
+        Crea un carrito de la compra sencillo que permita añadir y quitar productos (tres o cuatro
+        productos diferentes). De cada producto se debe conocer al menos la descripción, el precio
+        y debe tener una imagen que lo identifique.
+        <br /><a href="05.php">&gt;&gt; Solución</a>
+        </li>
 
-		    <li>
-				Amplía el programa anterior de tal forma que se pueda ver el detalle de un producto. Se
-				podrán añadir productos al carrito tanto desde la vista de listado como desde la vista
-				de detalle.
-		    <br /><a href="06.php">&gt;&gt; Solución</a>
-		    </li>
+        <li>
+        Amplía el programa anterior de tal forma que se pueda ver el detalle de un producto. Se
+        podrán añadir productos al carrito tanto desde la vista de listado como desde la vista
+        de detalle.
+        <br /><a href="06.php">&gt;&gt; Solución</a>
+        </li>
 
-		    <li>
-				Realiza un programa que escoja al azar 5 palabras en inglés de un mini-diccionario. El
-				programa pedirá que el usuario teclee la traducción al español de cada una de las palabras
-				y comprobará si son correctas. Al final, el programa deberá mostrar cuántas respuestas son
-				válidas y cuántas erróneas. La aplicación debe tener una opción para introducir los pares
-				de palabras (inglés - español) que se deben guardar en cookies; de esta forma, si de vez
-				en cuando se dan de alta nuevas palabras, se puede llegar a contar con un número considerable
-				de entradas en el mini-diccionario.
-		    <br /><a href="07.php">&gt;&gt; Solución</a>
-		    </li>
+        <li>
+        Realiza un programa que escoja al azar 5 palabras en inglés de un mini-diccionario. El
+        programa pedirá que el usuario teclee la traducción al español de cada una de las palabras
+        y comprobará si son correctas. Al final, el programa deberá mostrar cuántas respuestas son
+        válidas y cuántas erróneas. La aplicación debe tener una opción para introducir los pares
+        de palabras (inglés - español) que se deben guardar en cookies; de esta forma, si de vez
+        en cuando se dan de alta nuevas palabras, se puede llegar a contar con un número considerable
+        de entradas en el mini-diccionario.
+        <br /><a href="07.php">&gt;&gt; Solución</a>
+        </li>
 
-		    <li>
-				Amplía el ejercicio 6 de tal forma que los productos que se pueden elegir para comprar
-				se almacenen en cookies. La aplicación debe ofrecer, por tanto, las opciones de alta,
-				baja y modificación de productos.
-		    <br /><a href="08.php">&gt;&gt; Solución</a>
-		    </li>                   
+        <li>
+        Amplía el ejercicio 6 de tal forma que los productos que se pueden elegir para comprar
+        se almacenen en cookies. La aplicación debe ofrecer, por tanto, las opciones de alta,
+        baja y modificación de productos.
+        <br /><a href="08.php">&gt;&gt; Solución</a>
+        </li>                   
                     
         </ol>
-	    </div>
-	    <div id="footer">
-		    © Luis José Sánchez González
-	    </div>
-	</div>
+      </div>
+      <div id="footer">
+        © Luis José Sánchez González
+      </div>
+  </div>
     </body>
 </html>
