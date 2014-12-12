@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="default.css" rel="stylesheet" type="text/css" />
-	 <style type="text/css">table, th, td {border: 0px} </style>
-    </head>
-    <body>
-	<div id="container">
-	    <div id="header">
-		    <h1>
-			    APRENDE PHP CON EJERCICIOS
-		    </h1>
-                    <h2>
-                            SOLUCIONES A LOS EJERCICIOS
-                    </h2>
-		    <h2>
-                        <br>5. Arrays
-		    </h2>
-	    </div>
-
-	    <div id="content">
                 <?php
                     if (!isset($_POST['temperatura'])) {
                          $mes = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
@@ -41,11 +19,4 @@
 			 }
 			 echo "</table>";
                      }
-                ?>
-	    </div>
-	    <div id="footer">
-		    © Luis José Sánchez González
-	    </div>
-	</div>
-    </body>
-</html>
+                

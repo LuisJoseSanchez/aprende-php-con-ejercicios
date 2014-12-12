@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="default.css" rel="stylesheet" type="text/css" />
-	
 	<style type="text/css">
 		table, th, td {
 			border: 0px;
@@ -16,22 +10,7 @@
 			background-color: white;
 		}
 	</style>
-    </head>
-    <body>
-	<div id="container">
-	    <div id="header">
-		    <h1>
-			    APRENDE PHP CON EJERCICIOS
-		    </h1>
-                    <h2>
-                            SOLUCIONES A LOS EJERCICIOS
-                    </h2>
-		    <h2>
-                        <br>5. Arrays
-		    </h2>
-	    </div>
 
-	    <div id="content">
                 <h2> Movimiento de un alfil</h2>
                 
                 <?php
@@ -78,11 +57,3 @@
 					echo '<input type="text" name="posicion"><br>';
 					echo '<input type="submit" value="Aceptar">';
 					echo '</form>';
-                ?>
-	    </div>
-	    <div id="footer">
-		    © Luis José Sánchez González
-	    </div>
-	</div>
-    </body>
-</html>
