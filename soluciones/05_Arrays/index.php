@@ -78,7 +78,7 @@
             los números pares a las primeras posiciones del array (del 0 en adelante)
             y todos los números impares a las celdas restantes. Utiliza arrays auxiliares
             si es necesario.
-            <br /><a href="07">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=07">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -100,7 +100,7 @@
                 <tr><td>5</td><td>7</td><td>2</td><td>11</td><td>20</td><td>4</td><td>32</td><td>9</td><td>14</td><td>6</td></tr>
             </table>
 
-            <br /><a href="08">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=08">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -124,7 +124,7 @@
                 <tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
                 <tr><td>6</td><td>20</td><td>5</td><td>7</td><td>32</td><td>9</td><td>2</td><td>4</td><td>14</td><td>11</td></tr>
             </table>
-            <br /><a href="09">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=09">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -133,7 +133,7 @@
             array asociativa para obtener los puntos a partir del nombre de la figura
             de la carta. Asegúrate de que no se repite ninguna carta, igual que si
             las hubieras cogido de una baraja de verdad.
-          <br /><a href="10">&gt;&gt; Solución</a>
+          <br /><a href="pagina.php?ejercicio=10">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -141,7 +141,7 @@
             palabras (con su traducción). Utiliza un array asociativa para
             almacenar las parejas de palabras. El programa pedirá una palabra
             en español y dará la correspondiente traducción en inglés.
-            <br /><a href="11">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=11">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -150,7 +150,7 @@
             que el usuario teclee la traducción al inglés de cada una de las
             palabras y comprobará si son correctas. Al final, el programa
             deberá mostrar cuántas respuestas son válidas y cuántas erróneas.
-            <br /><a href="12">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=12">&gt;&gt; Solución</a>
           </li>
   
           <li>
@@ -163,7 +163,7 @@
                      aparecer en color verde.<br>
             &nbsp;&nbsp;b) El mínimo debe aparecer en color azul.<br>
             &nbsp;&nbsp;c) El resto de números debe aparecer en color negro.<br>
-            <br /><a href="13">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=13">&gt;&gt; Solución</a>
           </li>
 
           <li>
@@ -174,7 +174,7 @@
             se mueve siempre en diagonal. El tablero cuenta con 64 casillas. Las
             columnas se indican con las letras de la "a" a la "h" y las filas se
             indican del 1 al 8.
-            <br /><a href="14">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=14">&gt;&gt; Solución</a>
           </li>                               
         </ol>
         
