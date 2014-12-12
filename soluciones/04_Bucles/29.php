@@ -53,6 +53,6 @@
       <div id="footer">
         © Luis José Sánchez González
       </div>
-  </div>
-    </body>
+    </div>
+  </body>
 </html>
