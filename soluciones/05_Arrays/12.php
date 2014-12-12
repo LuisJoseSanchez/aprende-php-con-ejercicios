@@ -28,40 +28,40 @@
                         );
                                          
                     if (!isset($_POST['espanol'])) {
-						echo "Por favor, introduzca la traducción al inglés de las siguientes palabras.<br>";
-						
-						// Extrae las palabras españolas
-						foreach ($diccionario as $clave => $valor)
-								$palabrasEspanolas[] = $clave;
-					
-						// Elige 5 palabras en español sin que se repita ninguna
-						$contadorPalabras = 0;
-						do {
-							$palabra = $palabrasEspanolas[rand(0, 19)];
-							if (!in_array($palabra, $espanol)) {
-								$espanol[] = $palabra;
-								$contadorPalabras++;
-							}
-						} while ($contadorPalabras < 5);
-						
+            echo "Por favor, introduzca la traducción al inglés de las siguientes palabras.<br>";
+            
+            // Extrae las palabras españolas
+            foreach ($diccionario as $clave => $valor)
+                $palabrasEspanolas[] = $clave;
+          
+            // Elige 5 palabras en español sin que se repita ninguna
+            $contadorPalabras = 0;
+            do {
+              $palabra = $palabrasEspanolas[rand(0, 19)];
+              if (!in_array($palabra, $espanol)) {
+                $espanol[] = $palabra;
+                $contadorPalabras++;
+              }
+            } while ($contadorPalabras < 5);
+            
                         echo '<form action="12.php" method="post">';
                         for ($i = 0; $i < 5; $i++) {
-							echo $espanol[$i]." ";
-							echo '<input type="hidden" name="espanol['.$i.']" value="'.$espanol[$i].'">';
-							echo '<input type="text" name="ingles['.$i.']" ><br>';
-						}
+              echo $espanol[$i]." ";
+              echo '<input type="hidden" name="espanol['.$i.']" value="'.$espanol[$i].'">';
+              echo '<input type="text" name="ingles['.$i.']" ><br>';
+            }
                         echo '<input type="submit" value="Aceptar">';
                         echo '</form>';
                     } else {
                         $espanol = $_POST['espanol'];
-						$ingles = $_POST['ingles'];
+            $ingles = $_POST['ingles'];
                    
-						for ($i = 0; $i < 5; $i++) {
-							echo $espanol[$i].": ".$ingles[$i];
-							if ($diccionario[$espanol[$i]] == $ingles[$i])
-									echo " - correcto<br>";
-								else
-									echo " - incorrecto, la respuesta correcta es ".$diccionario[$espanol[$i]]."<br>";
-						}
+            for ($i = 0; $i < 5; $i++) {
+              echo $espanol[$i].": ".$ingles[$i];
+              if ($diccionario[$espanol[$i]] == $ingles[$i])
+                  echo " - correcto<br>";
+                else
+                  echo " - incorrecto, la respuesta correcta es ".$diccionario[$espanol[$i]]."<br>";
+            }
                     }
                     
