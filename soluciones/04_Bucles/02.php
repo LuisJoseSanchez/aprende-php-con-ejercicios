@@ -1,38 +1,67 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <link href="default.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="header">
-        <h1>
-          APRENDE PHP CON EJERCICIOS
-        </h1>
-        <h2>
-          SOLUCIONES A LOS EJERCICIOS
-        </h2>
-        <h2>
-          <br>4. Bucles
-        </h2>
-      </div>
+<?php
 
-      <div id="content">
-        <?php
-          $i = 0;
-          while($i < 101) {
-            echo "$i  ";
-            $i += 5;
-          }
-        ?>
-        <br><br>
-        <a href="index.php">>> Volver</a>
-      </div>
-      
-      <div id="footer">
-        © Luis José Sánchez González
-      </div>
-    </div>
-  </body>
-</html>
+  if (!isset($_GET['n'])) {
+    $contadorNumeros = 1;
+    $numeroTexto = "";
+  } else {
+    $contadorNumeros = $_GET['contadorNumeros'];
+    $numeroTexto = $_GET['numeroTexto'];
+  }
+  
+  if ($contadorNumeros < 10) {
+    $contadorNumeros = $_GET['contadorNumeros'];
+    $n = $_GET['n'];
+    $numeroTexto = $_GET['numeroTexto'];
+
+    if ($numeroTexto == "") {
+        $numeroTexto = $n;
+    } else {
+        $numeroTexto = $numeroTexto.' '.$n;
+    }
+    
+    $contadorNumeros++;
+  }
+  
+  if (!isset($_GET['n']) || ($contadorNumeros < 10)) {
+  ?>
+    <form action="pagina.php" method="get">
+      <input type="hidden" name="ejercicio" value="02">
+      Introduzca un número:
+      <input type="number" name ="n" autofocus="" required="">
+      <input type="hidden" name="contadorNumeros" value="<?php echo $contadorNumeros; ?>">
+      <input type="hidden" name="numeroTexto" value="<?php echo $numeroTexto; ?>">
+      <input type="submit" value="OK">
+    </form>
+  <?php
+  }
+  
+  ////////////////////////////////////////////////////////////////
+  //  Programa principal una vez recogidos los datos del array
+  //  El array con los números es $numero
+  ////////////////////////////////////////////////////////////////
+
+  if ($contadorNumeros == 10) {
+    $numero = explode(" ", $numeroTexto);
+
+    $maximo = -PHP_INT_MAX;
+    $minimo = PHP_INT_MAX;
+
+    foreach ($numero as $n) {
+      if ($n < $minimo) {
+        $minimo = $n;
+      }
+      if ($n > $maximo) {
+        $maximo = $n;
+      }
+    }
+
+    foreach ($numero as $n) {
+      if ($n == $minimo) {
+        echo "$n mínimo<br>";
+      } else if ($n == $maximo) {
+        echo "$n máximo<br>";
+      } else {
+        echo "$n<br>";
+      }
+    }
+  }
