@@ -4,29 +4,29 @@
     $palabra = $_GET['palabra'];
 
     $diccionario = array (
-       "ordenador" => "computer",
-       "gato" => "cat",      
-       "rojo" => "red",
-       "árbol" => "tree",
-       "pingüino" => "penguin",
-       "sol" => "sun",
-       "agua" => "water",
-       "viento" => "wind",
-       "siesta" => "siesta",
-       "arriba" => "up",
-       "ratón" => "mouse",
-       "estadio" => "arena",
-       "calumnia" => "aspersion",
-       "aguacate" => "avocado",
-       "cuerpo" => "body",
-       "concurso" => "contest",
-       "cena" => "dinner",
-       "salida" => "exit",
-       "lenteja" => "lentil",
-       "cacerola" => "pan",
-       "pastel" => "pie",
-       "membrillo" => "quince"
-       );
+      "ordenador" => "computer",
+      "gato" => "cat",      
+      "rojo" => "red",
+      "árbol" => "tree",
+      "pingüino" => "penguin",
+      "sol" => "sun",
+      "agua" => "water",
+      "viento" => "wind",
+      "siesta" => "siesta",
+      "arriba" => "up",
+      "ratón" => "mouse",
+      "estadio" => "arena",
+      "calumnia" => "aspersion",
+      "aguacate" => "avocado",
+      "cuerpo" => "body",
+      "concurso" => "contest",
+      "cena" => "dinner",
+      "salida" => "exit",
+      "lenteja" => "lentil",
+      "cacerola" => "pan",
+      "pastel" => "pie",
+      "membrillo" => "quince"
+    );
 
     foreach ($diccionario as $clave => $valor) {
       $palabrasEspanolas[] = $clave;
