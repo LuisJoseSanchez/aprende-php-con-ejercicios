@@ -119,6 +119,8 @@
                 <tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
                 <tr><td>20</td><td>5</td><td>7</td><td>4</td><td>32</td><td>9</td><td>2</td><td>14</td><td>11</td><td>6</td></tr>
             </table>
+            <br>Posición inicial: 3<br>
+            <br>Posición final: 7<br><br>
             Vector final:
             <table>
                 <tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>

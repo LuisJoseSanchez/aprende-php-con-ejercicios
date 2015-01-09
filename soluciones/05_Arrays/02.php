@@ -36,7 +36,7 @@
   }
   
   ////////////////////////////////////////////////////////////////
-  //  Programa principal una vez recogidos los datos del array
+  //  Programa principal una vez recogidos los datos del array.
   //  El array con los números es $numero
   ////////////////////////////////////////////////////////////////
 
