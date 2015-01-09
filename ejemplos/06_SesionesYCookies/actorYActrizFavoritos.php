@@ -1,25 +1,25 @@
 <?php
-	// Si se envían datos desde el formulario de actores,
-	// se actualizan las cookies
+  // Si se envían datos desde el formulario de actores,
+  // se actualizan las cookies
 
-	if (isset($_POST["actriz"])) {
-		$actriz = $_POST["actriz"];
-		$actor = $_POST["actor"];
-		setcookie("actriz", $actriz, time() + 3*24*3600);
-		setcookie("actor", $actor, time() + 3*24*3600);
-	} else if (isset($_COOKIE["actriz"])) {
-		$actriz = $_COOKIE["actriz"];
-		$actor = $_COOKIE["actor"];
-	}
+  if (isset($_POST["actriz"])) {
+    $actriz = $_POST["actriz"];
+    $actor = $_POST["actor"];
+    setcookie("actriz", $actriz, time() + 3*24*3600);
+    setcookie("actor", $actor, time() + 3*24*3600);
+  } else if (isset($_COOKIE["actriz"])) {
+    $actriz = $_COOKIE["actriz"];
+    $actor = $_COOKIE["actor"];
+  }
 
-	// Borrado de cookies y variables
+  // Borrado de cookies y variables
 
-	if (isset($_POST["borraCookies"])) {
-		setcookie("actriz", NULL, -1);
-		setcookie("actor", NULL, -1);
-		unset($actriz);
-		unset($actor);
-	}
+  if (isset($_POST["borraCookies"])) {
+    setcookie("actriz", NULL, -1);
+    setcookie("actor", NULL, -1);
+    unset($actriz);
+    unset($actor);
+  }
 ?>
 <!DOCTYPE html>
 <html>
