@@ -1,5 +1,5 @@
-<h3>Tienda on-line <b><i><u>La Estilográfica</u></i></b></h3>
-<table style="border: 2px; margin: 40px;"><tr><td>
+<h3 style="text-align: center">Tienda on-line <b><i><u>La Estilográfica</u></i></b></h3>
+<table style="border: 2px; margin: 0px 30px 0px 30px;"><tr><td>
 <h3>Productos</h3><hr>
 <?php // Tienda ///////////////////////////////////////////////////////
 
