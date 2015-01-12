@@ -65,7 +65,7 @@
           </li>
           
           <li>
-            Escribe un programa que guarde en una cookie el color de fondo (propiedad background-color ) de
+            Escribe un programa que guarde en una cookie el color de fondo (propiedad <b>background-color</b>) de
             una página. Esta página debe tener únicamente algo de texto y un formulario para cambiar el color.
             <br /><a href="pagina.php?ejercicio=07">&gt;&gt; Solución</a>
           </li>
