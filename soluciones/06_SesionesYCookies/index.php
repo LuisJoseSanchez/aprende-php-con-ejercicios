@@ -63,6 +63,12 @@
             de detalle.
             <br /><a href="pagina.php?ejercicio=06">&gt;&gt; Solución</a>
           </li>
+          
+          <li>
+            Escribe un programa que guarde en una cookie el color de fondo (propiedad background-color ) de
+            una página. Esta página debe tener únicamente algo de texto y un formulario para cambiar el color.
+            <br /><a href="pagina.php?ejercicio=07">&gt;&gt; Solución</a>
+          </li>
 
           <li>
             Realiza un programa que escoja al azar 5 palabras en inglés de un mini-diccionario. El
@@ -72,14 +78,14 @@
             de palabras (inglés - español) que se deben guardar en cookies; de esta forma, si de vez
             en cuando se dan de alta nuevas palabras, se puede llegar a contar con un número considerable
             de entradas en el mini-diccionario.
-            <br /><a href="pagina.php?ejercicio=07">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=08">&gt;&gt; Solución</a>
           </li>
 
           <li>
             Amplía el ejercicio 6 de tal forma que los productos que se pueden elegir para comprar
             se almacenen en cookies. La aplicación debe ofrecer, por tanto, las opciones de alta,
             baja y modificación de productos.
-            <br /><a href="pagina.php?ejercicio=08">&gt;&gt; Solución</a>
+            <br /><a href="pagina.php?ejercicio=09">&gt;&gt; Solución</a>
           </li>
                     
         </ol>
