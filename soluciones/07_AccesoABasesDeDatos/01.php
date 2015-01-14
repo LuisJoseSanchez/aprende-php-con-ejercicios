@@ -24,12 +24,14 @@
   $consulta = mysql_query("SELECT dni, nombre, direccion, telefono FROM cliente", $conexion);
   ?>
   
-  <table class="center-block">
+  <table  class="table table-striped">
     <tr>
       <th>DNI</th>
       <th>Nombre</th>
       <th>Dirección</th>
       <th>Teléfono</th>
+      <th></th>
+      <th></th>
     </tr>
     
   <?php
@@ -46,7 +48,7 @@
           <input type="hidden" name="ejercicio" value="01">
           <input type="hidden" name="dni" value="<?=$registro[dni]?>">
           <input type="hidden" name="accion" value="Eliminar">
-          <button type="submit" class="btn btn-default">
+          <button type="submit" class="btn btn-danger">
           <span class="glyphicon glyphicon-trash"></span> Eliminar
           </button>
         </form>
@@ -58,7 +60,7 @@
           <input type="hidden" name="nombre" value="<?=$registro[nombre]?>">
           <input type="hidden" name="direccion" value="<?=$registro[direccion]?>">
           <input type="hidden" name="telefono" value="<?=$registro[telefono]?>">
-          <button type="submit" class="btn btn-default">
+          <button type="submit" class="btn btn-warning">
           <span class="glyphicon glyphicon-pencil"></span> Modificar
           </button>
         </form>
@@ -77,12 +79,12 @@
       <td><input type="text" name="nombre"></td>
       <td><input type="text" name="direccion"></td>
       <td><input type="text" name="telefono"  size="12"></td>
-      <td>
-        <button type="submit" class="btn btn-default">
+      <td colspan="2">
+        <button type="submit" class="btn btn-success">
         <span class="glyphicon glyphicon-ok"></span> Nuevo cliente
         </button>
       </td>
-      </td>
+
     </tr>
     </form>
   </table>
