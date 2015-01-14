@@ -9,12 +9,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse">
       <div class="container">
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Pagina principal</a></li>
-            <li><a href="#"></a></li>
+            <li><a href="index.php">Pagina principal</a></li>
+            <li><a href="https://github.com/LuisJoseSanchez/aprende-php-con-ejercicios">GitHub</a></li>
             <li><a href="#"></a></li>
           </ul>
         </div><!--/.nav-collapse -->

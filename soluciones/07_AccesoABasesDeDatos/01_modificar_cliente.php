@@ -18,9 +18,9 @@
       Teléfono: <input type="text" name="telefono" value="<?=$telefono?>"><br>
   </div>
       <div class="panel-footer">
-        <input type="submit" class="btn-success" name="accion" value="Modificar">
-      
+        <input type="submit" class="btn btn-success" name="accion" value="Modificar">
+        <a class="btn btn-danger" href="pagina.php?ejercicio=01" role="button">Cancelar</a>
+      </div> 
     </form>
-    
-</div>  
+</div>
 <br><br>
