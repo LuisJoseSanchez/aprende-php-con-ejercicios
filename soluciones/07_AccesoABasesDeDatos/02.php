@@ -37,8 +37,6 @@
   $consulta = mysql_query($listadoClientes, $conexion);
   $numClientes = mysql_num_rows($consulta);
   $numPaginas = floor(abs($numClientes - 1) / 5) + 1;
-
-  echo $numPaginas;
   
   $pagina = $_POST['pagina'];
 
