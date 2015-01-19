@@ -10,7 +10,6 @@
     }
 
     public function presentarse() {
-      echo "Hola, me llamo ".$this->nombre." y soy ".$this->profesion.".<br>";
+      echo "Hola, me llamo " . $this->nombre . " y soy " . $this->profesion . ".<br>";
     }
   }
-?>
