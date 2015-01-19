@@ -12,7 +12,7 @@
     }
 
     public function presentarse() {
-      return "Hola, me llamo ".$this->nombre." y soy ".$this->profesion.".<br>";
+      return "Hola, me llamo " . $this->nombre . " y soy " . $this->profesion . ".<br>";
     }
     
     public function ficha() {
