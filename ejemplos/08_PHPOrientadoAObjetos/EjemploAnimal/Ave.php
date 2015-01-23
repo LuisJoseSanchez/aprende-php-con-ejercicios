@@ -9,7 +9,7 @@
     }
 
     public function aseate() {
-      return "Me estoy limpiando las plumas<br>";
+      return "Me estoy limpiando las plumas<br>" . parent::aseate();
     }
 
     public function vuela() {

@@ -36,12 +36,12 @@
     }
 
     public function peleaCon($contrincante) {
-      if ($this->getSexo() == "hembra") {
-        return "no me gusta pelear<br>";
-      } else if (contrincante.getSexo() == Sexo.HEMBRA) {
-        return "no peleo contra gatitas<br>";
+      if (($this->getSexo()) == "hembra") {
+        echo "no me gusta pelear<br>";
+      } else if (($contrincante->getSexo()) == "hembra") {
+        echo "no peleo contra gatitas<br>";
       } else {
-         return "ven aquí que te vas a enterar<br>";
+        echo "ven aquí que te vas a enterar<br>";
       }
     }
 

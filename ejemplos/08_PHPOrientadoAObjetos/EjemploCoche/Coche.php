@@ -23,7 +23,7 @@
     public function getKilometraje() {
       return $this->kilometraje;
     }
-
+    
     public function recorre($km) {
       $this->kilometraje += $km;
       Coche::$kilometrajeTotal += $km;

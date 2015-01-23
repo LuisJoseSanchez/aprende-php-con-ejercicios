@@ -4,12 +4,8 @@
 
     private $sexo;
 
-    public function __construct($s) {
-      if (!isset($s)) {
-        $this->sexo = "macho";
-      } else {
-        $this->sexo = $s;
-      }
+    public function __construct($s = "macho") {
+      $this->sexo = $s;
     }
 
     public function __toString() {
@@ -26,5 +22,9 @@
 
     public function duerme() {
       return "Zzzzzzz";
+    }
+    
+    public function aseate() {
+      return "Me gusta asearme, soy un animal.<br>";
     }
   }

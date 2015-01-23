@@ -5,7 +5,7 @@
     private $edad;
     
     // Constructor
-    public function __construct($nom, $pro, $edad) {
+    public function __construct($nom, $pro, $edad = 25) {
       $this->nombre = $nom;
       $this->profesion = $pro;
       $this->edad = $edad;

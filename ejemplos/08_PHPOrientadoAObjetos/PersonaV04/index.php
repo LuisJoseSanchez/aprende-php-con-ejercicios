@@ -9,7 +9,7 @@
     include_once 'Persona.php';
     
     $unTipo = new Persona("Pepe Pérez", "albañil", 30);
-    $unNota = new Persona("Rigoberto Peláez", "programador", 25);
+    $unNota = new Persona("Rigoberto Peláez", "programador");
     echo $unTipo;
     echo $unNota;
   ?>
