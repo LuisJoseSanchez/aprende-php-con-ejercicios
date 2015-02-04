@@ -1,0 +1,22 @@
+{# Plantilla para mostrar información del usuario #}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h2>{{titulo}}</h2>
+
+    {% for usuario in usuarios %}
+      <b>Nombre:</b> {{ usuario.nombre }}<br>
+      <b>Primer apellido:</b> {{ usuario.apellido1 }}<br>
+      {% if usuario.apellido2 is defined %}
+        <b>Segundo apellido:</b> {{ usuario.apellido2 }}<br>
+      {% endif %}
+      <b>DNI:</b> {{ usuario.dni }}<br>
+      <hr>
+    {% endfor %}
+  </body>
+</html>
