@@ -14,10 +14,13 @@
     $infoUsuario = $twig->loadTemplate('infoUsuario.html.twig');
 
     $datos = array(
-      'nombre' => 'Elena',
-      'apellido1' => 'Nito',
-      'apellido2' => 'Del Bosque',
-      'dni' => '1234567X');
+      titulo => 'Información de usuario',
+      usuario => array(
+        'nombre' => 'Elena',
+        'apellido1' => 'Nito',
+        'apellido2' => 'Del Bosque',
+        'dni' => '1234567X')
+      );
 
     $paginaUsuario = $infoUsuario->render($datos);
     echo $paginaUsuario;
