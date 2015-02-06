@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DesarrolloAplicacionesWeb</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><span>Desarrollo</span>Aplicaciones<span>Web</span><br />
+          <small>IES Campanillas</small></a></h1>
+      </div>
+      <div class="clr"></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.php"<span>Principal</span></a></li>
+          <li><a href="asignaturas.php"><span>Asignaturas</span></a></li>
+          <li><a href="sobre.php"><span>Sobre nosotros</span></a></li>
+          <li><a href="contacto.php"><span>Contacto</span></a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="#">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="headert_text_resize"> <img src="images/img_main.jpg" alt="" width="970" height="338" /> </div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="left">
+          
+        {% block contenidoIzquierda %}{% endblock %}
+          
+      </div>
+      <div class="right">
+        <h2>Menú</h2>
+        
+        {% block menu %}
+        <!-- menú por defecto -->
+          <ul>
+              <li><a href="index.php">Principal</a></li>
+              <li><a href="asignaturas.php">Asignaturas</a></li>
+              <li><a href="sobre.php">Sobre nosotros</a></li>
+              <li><a href="contacto.php">Contacto</a></li>
+          </ul>
+        {% endblock %}
+               
+        <h2>Patrocinadores</h2>
+        <ul class="sponsors">
+
+         {% block patrocinadores %}{% endblock %}   
+            
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="FBG">
+    <div class="FBG_resize">
+      <div class="blok">
+        <h2><span>Image</span> Gallery</h2>
+        <img src="images/gallery_1.gif" alt="" width="68" height="68" /><img src="images/gallery_2.gif" alt="" width="68" height="68" /><img src="images/gallery_3.gif" alt="" width="68" height="68" /><img src="images/gallery_4.gif" alt="" width="68" height="68" /><img src="images/gallery_5.gif" alt="" width="68" height="68" /><img src="images/gallery_6.gif" alt="" width="68" height="68" />
+        <div class="clr"></div>
+        <h2>Contact Info </h2>
+        <p><strong>Phone</strong>: +1234567<br />
+          <strong>Address</strong>: 123 Put Your Address Here <br />
+          <strong>E-mail:</strong> me@jungleland.com<br />
+          <a href="#">contact page</a></p>
+      </div>
+      <div class="blok">
+        <h2><span>Lorem</span> Ipsum</h2>
+        <p>Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. <br />
+          Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+        <ul>
+          <li><a href="#">• consequat molestie</a></li>
+          <li><a href="#">• sem justo</a></li>
+          <li><a href="#">• semper</a></li>
+          <li><a href="#">• magna sed purus</a></li>
+        </ul>
+      </div>
+      <div class="blok">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. llorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. <a href="#">Learn more...</a></p>
+        <p><br />
+        </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">MyWebSite</a>.</p>
+      <p class="rf">Layout by Hot <a href="http://www.hotwebsitetemplates.net/">Website Templates</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</html>

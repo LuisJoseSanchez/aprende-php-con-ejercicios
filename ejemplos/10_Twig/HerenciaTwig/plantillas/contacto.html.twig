@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block contenidoIzquierda %}
+  <h2>Contact information<br />
+    <span> March 16, 2010 | Posted by Owner | Filed under templates, internet</span> </h2>
+  <p>Pellentesque elementum, felis nec vulputate facilisis, ligula mauris suscipit mi, id imperdiet metus quam sed erat. Mauris lectus ligula, scelerisque quis cursus eu, lacinia eu magna. Donec et orci justo. Donec id quam turpis. Curabitur sit amet fermentum turpis. Etiam blandit accumsan purus ut sodales. Maecenas ante risus, facilisis vel semper a, venenatis ut dui. </p>
+  <h2>Contact Form</h2>
+  <form action="#" method="post" id="contactform">
+    <ol>
+      <li>
+        <label for="name">Your Name*</label>
+        <input id="name" name="name" class="text" />
+      </li>
+      <li>
+        <label for="email">E-Mail*</label>
+        <input id="email" name="email" class="text" />
+      </li>
+      <li>
+        <label for="company">Website</label>
+        <input id="company" name="company" class="text" />
+      </li>
+      <li>
+        <label for="message">Your Message*</label>
+        <textarea id="message" name="message" rows="6" cols="50"></textarea>
+      </li>
+      <li class="buttons">
+        <input type="submit" name="imageField" id="imageField"  value="Send message" class="send" />
+        <div class="clr"></div>
+      </li>
+    </ol>
+  </form>
+{% endblock %}
+       
+{# No defino el menú, por tanto se muestra el menú definido por defecto en base.twig #}        
+        
+{% block patrocinadores %}
+  <li class="sponsors"><a href="http://www.dreamtemplate.com">DreamTemplate</a><br />
+    Over 6,000+ Premium Web Templates</li>
+  <li class="sponsors"><a href="http://www.templatesold.com/">TemplateSOLD</a><br />
+    Premium WordPress &amp; Joomla Themes</li>
+  <li class="sponsors"><a href="http://www.imhosted.com">ImHosted.com</a><br />
+    Affordable Web Hosting Provider</li>
+  <li class="sponsors"><a href="http://www.csshub.com/">CSS Hub</a><br />
+    Premium CSS Templates</li>
+  <li class="sponsors"><a href="http://www.evrsoft.com">Evrsoft</a><br />
+    Website Builder Software &amp; Tools</li>
+  <li class="sponsors"><a href="http://www.myvectorstore.com">MyVectorStore</a><br />
+    Royalty Free Stock Icons</li>
+{% endblock %}{# empty Twig template #}
