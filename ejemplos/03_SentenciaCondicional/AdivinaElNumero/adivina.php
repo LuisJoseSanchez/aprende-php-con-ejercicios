@@ -22,14 +22,15 @@
             else
               echo "El número que estoy pensando es menor que el número que has introducido.<br>";
           }
-        echo "Te quedan ", $oportunidades, " oportunidades para adivinar el número.<br>";
-        $oportunidades--;
-        echo "Introduce un número del 0 al 100";
-        echo '<form action="adivina.php" method="post">';
-        echo '<input type="text" name="numeroIntroducido">';
-        echo '<input type="hidden" name="oportunidades" value="', $oportunidades, '">';
-        echo '<input type="submit" value="Continuar">';
-        echo '</form>';
+        ?>
+        Te quedan <?= $oportunidades-- ?> oportunidades para adivinar el número.<br>
+        Introduce un número del 0 al 100
+        <form action="adivina.php" method="post">
+          <input type="text" name="numeroIntroducido">
+          <input type="hidden" name="oportunidades" value="<?= $oportunidades ?>">
+          <input type="submit" value="Continuar">
+        </form>
+        <?php
         }
       }
     ?>
