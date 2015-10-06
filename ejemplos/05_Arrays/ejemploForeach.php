@@ -5,10 +5,11 @@
   </head>
   <body>
     <?php
-      $things = array (30, -7, "Me gusta el queso", 56, "¡eh!", 237);
+      $cajonDeSastre = [30, -7, "Me gusta el queso", 56, "¡eh!", 237];
 
-      foreach ($things as $item)
-        echo $item, "<br>"; 
+      foreach ($cajonDeSastre as $cosa) {
+        echo "$cosa<br>";
+      }
     ?>
   </body>
 </html>
