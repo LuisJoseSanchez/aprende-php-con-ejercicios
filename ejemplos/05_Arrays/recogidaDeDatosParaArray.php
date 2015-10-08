@@ -13,6 +13,16 @@
         $contadorNumeros = 0;
         $numeroTexto = "";
       }
+
+      // Muestra los números introducidos
+      if ($contadorNumeros == 6) {
+        $numeroTexto = $numeroTexto . " " . $n; // añade el último número leído
+        $numero = explode(" ", $numeroTexto);
+        echo "Los números introducidos son: ";
+        foreach ($numero as $n) {
+          echo $n, "  ";
+        }
+      }
       
       // Pide número y añade el actual a la cadena
       if (($contadorNumeros < 6) || (!isset($n))) {
@@ -27,15 +37,7 @@
         <?php
       }
       
-      // Muestra los números introducidos
-      if ($contadorNumeros == 6) {
-        $numeroTexto = $numeroTexto . " " . $n; // añade el último número leído
-        $numero = explode(" ", $numeroTexto);
-        echo "Los números introducidos son: ";
-        foreach ($numero as $n) {
-          echo $n, "  ";
-        }
-      }
+
     ?>
   </body>
 </html>
