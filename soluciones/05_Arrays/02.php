@@ -28,8 +28,8 @@
       <input type="hidden" name="ejercicio" value="02">
       Introduzca un número:
       <input type="number" name ="n" autofocus="" required="">
-      <input type="hidden" name="contadorNumeros" value="<?php echo $contadorNumeros; ?>">
-      <input type="hidden" name="numeroTexto" value="<?php echo $numeroTexto; ?>">
+      <input type="hidden" name="contadorNumeros" value="<?= $contadorNumeros ?>">
+      <input type="hidden" name="numeroTexto" value="<?= $numeroTexto; ?>">
       <input type="submit" value="OK">
     </form>
   <?php
