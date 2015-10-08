@@ -1,38 +1,11 @@
 <?php
+  $n = $_GET['n'];
+  $contadorNumeros = $_GET['contadorNumeros'];
+  $numeroTexto = $_GET['numeroTexto'];
 
-  if (!isset($_GET['n'])) {
-    $contadorNumeros = 1;
+  if (!isset($n)) {
+    $contadorNumeros = 0;
     $numeroTexto = "";
-  } else {
-    $contadorNumeros = $_GET['contadorNumeros'];
-    $numeroTexto = $_GET['numeroTexto'];
-  }
-  
-  if ($contadorNumeros < 10) {
-    $contadorNumeros = $_GET['contadorNumeros'];
-    $n = $_GET['n'];
-    $numeroTexto = $_GET['numeroTexto'];
-
-    if ($numeroTexto == "") {
-        $numeroTexto = $n;
-    } else {
-        $numeroTexto = $numeroTexto.' '.$n;
-    }
-    
-    $contadorNumeros++;
-  }
-  
-  if (!isset($_GET['n']) || ($contadorNumeros < 10)) {
-  ?>
-    <form action="pagina.php" method="get">
-      <input type="hidden" name="ejercicio" value="02">
-      Introduzca un número:
-      <input type="number" name ="n" autofocus="" required="">
-      <input type="hidden" name="contadorNumeros" value="<?= $contadorNumeros ?>">
-      <input type="hidden" name="numeroTexto" value="<?= $numeroTexto; ?>">
-      <input type="submit" value="OK">
-    </form>
-  <?php
   }
   
   ////////////////////////////////////////////////////////////////
@@ -65,3 +38,21 @@
       }
     }
   }
+  ////////////////////////////////////////////////////////////////
+  
+  
+  
+  // Pide número y añade el actual a la cadena
+  if (($contadorNumeros < 10) || (!isset($n))) {
+    ?>
+    <form action="pagina.php" method="get">
+      <input type="hidden" name="ejercicio" value="02">
+      Introduzca un número:
+      <input type="number" name ="n" autofocus>
+      <input type="hidden" name="contadorNumeros" value="<?= ++$contadorNumeros ?>">
+      <input type="hidden" name="numeroTexto" value="<?= $numeroTexto . " " . $n ?>">
+      <input type="submit" value="OK">
+    </form>
+    <?php
+  }
+  
