@@ -17,6 +17,8 @@
       // Muestra los números introducidos
       if ($contadorNumeros == 6) {
         $numeroTexto = $numeroTexto . " " . $n; // añade el último número leído
+        $numeroTexto = substr($numeroTexto, 2); // quita los dos primeros
+                                                // espacios de la cadena       
         $numero = explode(" ", $numeroTexto);
         echo "Los números introducidos son: ";
         foreach ($numero as $n) {
