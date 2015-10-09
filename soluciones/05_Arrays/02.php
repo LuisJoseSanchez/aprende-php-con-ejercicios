@@ -14,6 +14,8 @@
   ////////////////////////////////////////////////////////////////
 
   if ($contadorNumeros == 10) {
+    $numeroTexto = $numeroTexto . " " . $n; // añade el último número leído
+    $numeroTexto = substr($numeroTexto, 2); // quita espacios sobrantes
     $numero = explode(" ", $numeroTexto);
 
     $maximo = -PHP_INT_MAX;
