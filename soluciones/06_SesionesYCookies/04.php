@@ -1,6 +1,6 @@
 <?php
-	if (!isset($_SESSION['logueado'])) {
-		$_SESSION['logueado'] = false;
+  if (!isset($_SESSION['logueado'])) {
+    $_SESSION['logueado'] = false;
   } 
   
   // Formulario de login
