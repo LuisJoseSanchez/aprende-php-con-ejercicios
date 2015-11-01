@@ -17,20 +17,22 @@
     
     <table border="1">
     <tr>
-    <td><b>DNI</b></td>
-    <td><b>Nombre</b></td>
-    <td><b>Dirección</b></td>
-    <td><b>Teléfono</b></td>
+      <td><b>DNI</b></td>
+      <td><b>Nombre</b></td>
+      <td><b>Dirección</b></td>
+      <td><b>Teléfono</b></td>
     </tr>
 
     <?php
       while ($registro = mysql_fetch_array($consulta)){
-        echo "<tr>";
-        echo "<td>".$registro[dni]."</td>";
-        echo "<td>".$registro[nombre]."</td>";
-        echo "<td>".$registro[direccion]."</td>";
-        echo "<td>".$registro[telefono]."</td>";
-        echo "</tr>";
+        ?>
+        <tr>
+          <td><?= $registro[dni] ?></td>
+          <td><?= $registro[nombre] ?></td>
+          <td><?= $registro[direccion] ?></td>
+          <td><?= $registro[telefono] ?></td>
+        </tr>
+        <?php
       }
     ?>
   </body>
