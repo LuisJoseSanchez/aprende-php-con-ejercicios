@@ -12,46 +12,39 @@
     
       // Conexión a la base de datos
       try {
-        // Se puede utilizar MySQL o PostgreSQL
-        $conexion = new PDO("mysql:host=localhost", "root", "root");
-        //$conexion = new PDO("posgresql:host=localhost", "root", "root");
-        echo "Se ha establecido una conexión con el servidor de bases de datos.";
+        $conexion = new PDO("mysql:host=localhost;dbname=banco;charset=utf8", "root", "root");
       } catch (PDOException $e) {
         echo "No se ha podido establecer conexión con el servidor de bases de datos.<br>";
         die ("Error: " . $e->getMessage());
       }
-      $conexion = new mysqli("localhost", "root", "root");
-      if ($conexion->connect_errno > 0) {
-        echo "No se ha podido establecer conexión con el servidor de bases de datos.<br>";
-        die ("Error: " . $conexion->connect_error);
-      } else {
-        $conexion->select_db("banco");
-        $conexion->set_charset("utf8");
+      
+      $consulta = $conexion->query("SELECT dni, nombre, direccion, telefono FROM cliente");
+         
+      ?>
+      <table border="1">
+      <tr>
+        <td><b>DNI</b></td>
+        <td><b>Nombre</b></td>
+        <td><b>Dirección</b></td>
+        <td><b>Teléfono</b></td>
+      </tr>
 
-        $consulta = $conexion->query("SELECT dni, nombre, direccion, telefono FROM cliente");
-          
+      <?php
+      while ($cliente = $consulta->fetchObject()) {
         ?>
-        <table border="1">
         <tr>
-          <td><b>DNI</b></td>
-          <td><b>Nombre</b></td>
-          <td><b>Dirección</b></td>
-          <td><b>Teléfono</b></td>
+          <td><?= $cliente->dni ?></td>
+          <td><?= $cliente->nombre ?></td>
+          <td><?= $cliente->direccion ?></td>
+          <td><?= $cliente->telefono ?></td>
         </tr>
-
-        <?php
-        while ($cliente = $consulta->fetch_object()){
-          ?>
-          <tr>
-            <td><?= $cliente->dni ?></td>
-            <td><?= $cliente->nombre ?></td>
-            <td><?= $cliente->direccion ?></td>
-            <td><?= $cliente->telefono ?></td>
-          </tr>
-          <?php
-        }
+        <?php              
       }
-      $conexion->close();
-    ?>
+      ?>
+      </table>
+      <br>
+      Número de clientes: <?= $consulta->rowCount() ?>
+      
+      <?php $conexion->close(); ?>
   </body>
 </html>
