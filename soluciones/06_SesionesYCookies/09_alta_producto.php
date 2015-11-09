@@ -6,6 +6,7 @@
   Precio: <input type="number" step="0.01" name="precio"><br>
   Detalle: <textarea name="detalle"></textarea><br>
   Imagen: <input type="text" name="imagen"><br>
-  <input type="submit" name="accion" value="Alta">
+  <input type="hidden" name="accion" value="Alta">
+  <input type="submit" value="Alta">
 </form>
 <br><br>

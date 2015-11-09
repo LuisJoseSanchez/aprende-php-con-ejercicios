@@ -1,9 +1,11 @@
 <h3>Administración de productos</h3><hr>
 <?php
+
   $_SESSION['producto'] = unserialize($_COOKIE['producto']);
 
+  echo "<hr>";
   if (($_POST['accion'] == "Alta") || ($_POST['accion'] == "Modificar")) {
-    $_SESSION['producto']['codigo'] = [
+    $_SESSION['producto'][$_POST['codigo']] = [
         "nombre" => "".$_POST['nombre'],
         "precio" => $_POST['precio'],
         "imagen" => $_POST['imagen'],
@@ -18,6 +20,7 @@
     unset($_COOKIE['producto'][$_POST['codigo']]);
     $_SESSION['pagina'] = "pagina.php?ejercicio=09_admin_productos";
     header("Location: 09_grabaCookies.php");
+    echo "Entra en eliminar";
   }
 
   echo "<table>";
@@ -64,9 +67,9 @@
   </form>
   </td>
   <td>
+
   <form action="pagina.php" method="post">
     <input type="hidden" name="ejercicio" value="09">
-    <input type="hidden" name="accion" value="actualizarCookies">
     <input type="submit" value="Regresar a la tienda">
   </form>
   </td>
