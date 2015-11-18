@@ -35,5 +35,9 @@
         <?php
       }
     ?>
+    </table>
+    <br>
+    Número de clientes: <?= mysql_num_rows($consulta) ?>
+
   </body>
 </html>
