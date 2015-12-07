@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <link href="css/default.css" rel="stylesheet" type="text/css" />
-    <title>Soluciones a los ejercicios - 5. Arrays</title>
+    <title>Soluciones a los ejercicios - 7. Sesiones y cookies</title>
   </head>
   <body>
     <div id="container">
@@ -16,7 +16,7 @@
           SOLUCIONES A LOS EJERCICIOS
         </h2>
         <h2>
-          <br>6. Sesiones y Cookies
+          <br>7. Sesiones y Cookies
         </h2>
       </div>
 
