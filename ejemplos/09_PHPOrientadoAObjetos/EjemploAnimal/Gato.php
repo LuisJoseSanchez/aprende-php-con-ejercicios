@@ -44,8 +44,4 @@
         echo "ven aquí que te vas a enterar<br>";
       }
     }
-
-    public function ficha() {
-      return (parent::ficha()) . "Raza: " . ($this->raza) . "<hr>";
-    } 
   }

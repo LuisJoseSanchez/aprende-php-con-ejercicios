@@ -16,10 +16,10 @@
       $lisa = new Gato("hembra");
       $silvestre = new Gato();
       
-      echo $garfield->ficha();
-      echo $tom->ficha();
-      echo $lisa->ficha();
-      echo $silvestre->ficha();
+      echo "$garfield<hr>";
+      echo "$tom<hr>";
+      echo "$lisa<hr>";
+      echo "$silvestre<hr>";
 
       $miLoro = new Ave();
       echo $miLoro->aseate();

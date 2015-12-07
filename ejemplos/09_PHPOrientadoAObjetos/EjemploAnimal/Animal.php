@@ -1,6 +1,6 @@
 <?php
 
-  class Animal {
+  abstract class Animal {
 
     private $sexo;
 
@@ -14,10 +14,6 @@
 
     public function getSexo() {
       return $this->sexo;
-    }
-
-    public function ficha() {
-      return "Sexo: $this->sexo<br>";
     }
 
     public function duerme() {
