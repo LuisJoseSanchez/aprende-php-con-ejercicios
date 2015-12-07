@@ -6,18 +6,18 @@
   </head>
   <body>
     <?php
-      include_once 'Matematicas.php';
+      include_once 'funciones.php';
       
       // Mismo nombre de función con diferente
       // número de parámetros.
-      echo Matematicas::opera(2)."<br>";
-      echo Matematicas::opera(2, 3)."<br>";
-      echo Matematicas::opera(2, 3, 10)."<br>";
+      echo opera(2)."<br>";
+      echo opera(2, 3)."<br>";
+      echo opera(2, 3, 10)."<br>";
       
       // Mismo nombre de función con distintos
       // tipos de parámetros.
-      echo Matematicas::opera2(10, 20)."<br>";
-      echo Matematicas::opera2("melón", "sandía")."<br>";
+      echo opera2(10, 20)."<br>";
+      echo opera2("melón", "sandía")."<br>";
     ?>
   </body>
 </html>
