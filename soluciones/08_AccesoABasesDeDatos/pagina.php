@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Capítulo 7 - Acceso a Bases de Datos</title>
+    <title>Capítulo 8 - Acceso a Bases de Datos</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -26,7 +26,7 @@
       <div class="jumbotron">
         <h3 class="text-center">APRENDE PHP CON EJERCICIOS</h3>
         <h4 class="text-center">SOLUCIONES A LOS EJERCICIOS</h4>
-        <h4 class="text-center">7. Acceso a Bases de Datos</h4>
+        <h4 class="text-center">8. Acceso a Bases de Datos</h4>
       </div>
     
         <?php
