@@ -6,8 +6,8 @@
   </head>
     <body>
     <?php
-      include_once 'Animal.php';
-      include_once 'Ave.php';
+      include_once 'Animal.php'; // no es necesario incluirla
+      include_once 'Ave.php'; // no es necesario incluirla
       include_once 'Pinguino.php';
       include_once 'Gato.php';
 
