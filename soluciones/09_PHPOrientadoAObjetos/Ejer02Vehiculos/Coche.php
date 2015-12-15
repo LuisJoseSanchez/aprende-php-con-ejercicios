@@ -15,5 +15,3 @@ class Coche extends Vehiculo {
 		return "Shhhsssssss";
 	}
 }
-
-?>
