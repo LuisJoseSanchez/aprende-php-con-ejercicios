@@ -15,5 +15,3 @@ class Bicicleta extends Vehiculo {
 		return "Estoy haciendo el caballitooooooo";
 	}
 }
-
-?>
