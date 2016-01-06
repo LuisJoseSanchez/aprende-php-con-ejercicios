@@ -1,6 +1,6 @@
 <?php
 
-class PizzeriaDB {
+abstract class PizzeriaDB {
   private static $servidor = 'localhost';
   private static $base = 'pizzeria';
   private static $usuario = 'root';
