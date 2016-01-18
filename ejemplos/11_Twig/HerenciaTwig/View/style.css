@@ -34,7 +34,7 @@ p.clr, .clr {
 .header {
 	margin:0;
 	padding:0;
-	background:#fcf6ee url(images/header_bg.gif) top repeat-x;
+	background:#fcf6ee url(../View/images/header_bg.gif) top repeat-x;
 }
 .logo {
 	margin:0;
@@ -93,19 +93,19 @@ h1 small {
 }
 .menu ul li a:hover {
 	color:#8bbe43;
-	background:url(images/r_menu.gif) no-repeat right;
+	background:url(../View/images/r_menu.gif) no-repeat right;
 }
 .menu ul li a:hover span {
 	color:#8bbe43;
-	background:url(images/l_menu.gif) no-repeat left;
+	background:url(../View/images/l_menu.gif) no-repeat left;
 }
 .menu ul li a.active {
 	color:#8bbe43;
-	background:url(images/r_menu.gif) no-repeat right;
+	background:url(../View/images/r_menu.gif) no-repeat right;
 }
 .menu ul li a.active span {
 	color:#8bbe43;
-	background:url(images/l_menu.gif) no-repeat left;
+	background:url(../View/images/l_menu.gif) no-repeat left;
 }
 .search {
 	padding:10px 0 0 0;
@@ -121,7 +121,7 @@ h1 small {
 .search span {
 	display:block;
 	float:left;
-	background:url(images/search_bg.gif) left top no-repeat;
+	background:url(../View/images/search_bg.gif) left top no-repeat;
 	width:151px;
 	padding:0 5px 0 0;
 	height:33px;
@@ -130,7 +130,7 @@ h1 small {
 	line-height:14px;
 	height:17px;
 	float:left;
-	background:url(images/search_bg.gif) left top no-repeat;
+	background:url(../View/images/search_bg.gif) left top no-repeat;
 	border:0;
 	padding:5px 5px;
 	margin:0;
@@ -197,14 +197,14 @@ h1 small {
 	width:614px;
 	margin:0;
 	padding:0 25px;
-	background:url(images/l_bg.gif) top center no-repeat;
+	background:url(../View/images/l_bg.gif) top center no-repeat;
 }
 .right {
 	float:right;
 	width:255px;
 	margin:0;
 	padding:0 25px;
-	background:url(images/r_bg.gif) top center no-repeat;
+	background:url(../View/images/r_bg.gif) top center no-repeat;
 }
 .right ul {
 	list-style:none;
