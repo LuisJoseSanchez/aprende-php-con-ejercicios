@@ -63,8 +63,8 @@
             if ($discriminante < 0) {
               echo  "La ecuación no tiene soluciones reales";
             } else {
-              echo  "x<sub>1</sub> = ", (-$b + sqrt($discriminante)) / (4 * $a * $c);
-              echo  "<br>x<sub>2</sub> = ", (-$b - sqrt($discriminante)) / (4 * $a * $c);
+              echo  "x<sub>1</sub> = ", (-$b + sqrt($discriminante)) / (2 * $a);
+              echo  "<br>x<sub>2</sub> = ", (-$b - sqrt($discriminante)) / (2 * $a);
             }
           }
         ?>
