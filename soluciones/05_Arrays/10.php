@@ -16,7 +16,7 @@
       $figuraCarta = $figura[rand(0, 9)];
       $puntosCarta = $puntuacion[$figuraCarta];
       $nombreCarta = "$figuraCarta de $paloCarta";
-      if (!in_array($nombreCarta, $cartasEchadas)) {
+      if (!in_array($nombreCarta, (array) $cartasEchadas)) {
         echo "$nombreCarta - $puntosCarta puntos<br>";
         $cartasEchadas[] = $nombreCarta;
         $contadorCartasEchadas++;
